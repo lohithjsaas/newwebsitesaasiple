@@ -21,7 +21,7 @@ export default function Hero() {
   return (
     <div className="relative isolate overflow-hidden bg-gradient-to-b from-background to-background/95 pt-24 sm:pt-32">
       <div
-        className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
+        className="absolute inset-x-0 -top-50 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
         aria-hidden="true"
       >
         <div
