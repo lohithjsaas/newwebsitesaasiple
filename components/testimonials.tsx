@@ -8,25 +8,25 @@ import { useMobile } from "@/hooks/use-mobile"
 
 const testimonials = [
   {
-    name: "Sarah Johnson",
-    role: "CTO, TechCorp",
+    name: "Sri Velliyur",
+    role: "Co-Founder, Curapod - Litemed",
     content:
       "Saasiple transformed our customer service with their AI chatbot implementation. The team was professional, knowledgeable, and delivered beyond our expectations.",
-    avatar: "SJ",
+    avatar: "SV",
   },
   {
-    name: "Michael Chen",
-    role: "CEO, InnovateTech",
+    name: "Pradhu M",
+    role: "CEO, SparKX",
     content:
       "The custom software solution developed by Saasiple has streamlined our operations and significantly improved our efficiency. Highly recommended!",
-    avatar: "MC",
+    avatar: "PM",
   },
   {
-    name: "Emily Rodriguez",
-    role: "Marketing Director, GrowthHub",
+    name: "Srinivas N",
+    role: "Head of Marketing, Travel India",
     content:
       "Working with Saasiple on our marketing automation implementation was a game-changer. Their expertise and attention to detail are unmatched.",
-    avatar: "ER",
+    avatar: "SN",
   },
 ]
 
