@@ -54,6 +54,12 @@ const partners = [
     width: 180,
     height: 80,
   },
+  {
+    name: "Partner 9",
+    logo: "/images/partner-logo-9.png",
+    width: 180,
+    height: 80,
+  },
 ]
 
 export default function Partners() {
