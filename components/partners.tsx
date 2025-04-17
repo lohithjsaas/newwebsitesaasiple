@@ -13,6 +13,12 @@ const partners = [
     height: 120,
   },
   {
+    name: "Partner 10",
+    logo: "/images/partner-logo-10.png",
+    width: 120,
+    height: 120,
+  },
+  {
     name: "Partner 2",
     logo: "/images/partner-logo-2.png",
     width: 180,
