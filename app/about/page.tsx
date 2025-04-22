@@ -20,13 +20,13 @@ export default function AboutPage() {
                 software solutions.
               </p>
               <p className="text-muted-foreground">
-                Founded in 2015, Saasiple has grown from a small startup to a leading consulting and software
+                Founded in 2021, Saasiple has grown from a small startup to a leading consulting and software
                 development company. Our mission is to empower businesses with cutting-edge technology solutions that
                 drive growth, efficiency, and success.
               </p>
             </div>
             <div className="relative h-[400px] rounded-lg overflow-hidden">
-              <Image src="/placeholder.svg?height=800&width=600" alt="Saasiple team" fill className="object-cover" />
+              <video src="/videos/ctc1.mp4" autoPlay loop muted playsInline className="object-cover w-full h-full" />
             </div>
           </div>
         </section>
@@ -67,10 +67,10 @@ export default function AboutPage() {
           <h2 className="text-3xl font-bold mb-12 text-center">Meet Our Leadership Team</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
-              { name: "Lohith J", role: "CEO & Founder", image: "/placeholder.svg?height=400&width=400" },
+              { name: "Lohith J", role: "CEO & Founder", image: "/images/ceo.jpg?height=400&width=400" },
               { name: "Prabhu M", role: "Services Consultant", image: "/placeholder.svg?height=400&width=400" },
-              { name: "TP", role: "SVP", image: "/placeholder.svg?height=400&width=400" },
-              { name: "Saanvi", role: "Senior Developer", image: "/placeholder.svg?height=400&width=400" },
+              { name: "TP", role: "Sr. Vice President", image: "/placeholder.svg?height=400&width=400" },
+              { name: "Dityaa P", role: "Head of QA", image: "/placeholder.svg?height=400&width=400" },
             ].map((member) => (
               <div key={member.name} className="text-center">
                 <div className="relative h-64 w-64 mx-auto rounded-full overflow-hidden mb-4">
