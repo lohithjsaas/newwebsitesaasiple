@@ -68,9 +68,9 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
               { name: "Lohith J", role: "CEO & Founder", image: "/images/ceo.jpg?height=400&width=400" },
-              { name: "Prabhu M", role: "Services Consultant", image: "/placeholder.svg?height=400&width=400" },
-              { name: "TP", role: "Sr. Vice President", image: "/placeholder.svg?height=400&width=400" },
-              { name: "Dityaa P", role: "Head of QA", image: "/placeholder.svg?height=400&width=400" },
+              { name: "Prabhu M", role: "Services Consultant", image: "/images/test.jpg?height=400&width=400" },
+              { name: "TP", role: "Sr. Vice President", image: "/images/test.jpg?height=400&width=400" },
+              { name: "Dityaa P", role: "Head of QA", image: "/images/test.jpg?height=400&width=400" },
             ].map((member) => (
               <div key={member.name} className="text-center">
                 <div className="relative h-64 w-64 mx-auto rounded-full overflow-hidden mb-4">
